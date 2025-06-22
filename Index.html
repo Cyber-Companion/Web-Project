@@ -1,0 +1,2016 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="https://courtofficefurniture.com/wp-content/themes/courtst/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://courtofficefurniture.com/wp-content/themes/courtst/assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://courtofficefurniture.com/wp-content/themes/courtst/assets/css/icomoon.css" />
+    <link rel="stylesheet" href="https://courtofficefurniture.com/wp-content/themes/courtst/assets/css/photoswipe.css">
+    <link rel="stylesheet" href="https://courtofficefurniture.com/wp-content/themes/courtst/assets/css/main.css">
+    <link rel="stylesheet" href="https://courtofficefurniture.com/wp-content/themes/courtst/assets/css/new.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Court Street Office Furniture &#8211; Furnishing Success Since 1982</title>
+
+    <style>
+        .wpcf7-submit {
+            display: none;
+        }
+
+        .recaptcha-btn {
+            display: block;
+        }
+
+        .grecaptcha-badge {
+            margin: 10px 0;
+        }
+    </style>
+    <!-- Custom Theme Styles: White, Red, and Blue with Modern Feel -->
+    <style>
+        /* Define our new color variables for easier management */
+        :root {
+            --primary-white: #FFFFFF;
+            --primary-red: #E53935; /* A vibrant red */
+            --primary-blue: #1976D2; /* A vibrant blue */
+            --text-dark: #333333; /* Dark gray for text on white backgrounds */
+            --text-light: #FFFFFF; /* White for text on colored backgrounds */
+            --border-color: #E0E0E0; /* Light gray for borders */
+        }
+
+        /* General Body and Backgrounds */
+        body {
+            background-color: var(--primary-white);
+            color: var(--text-dark); /* Default text color */
+            font-family: 'Inter', sans-serif; /* Apply modern Inter font */
+        }
+
+        .bg-light, .home-categories, .about-short-info, .our-offer,
+        .industry-powered-by, .diverse-selection, .about-section, .client-testimonials {
+            background-color: var(--primary-white) !important;
+            color: var(--text-dark) !important;
+        }
+
+        /* Headers and Footers */
+        .site-header, .site-footer {
+            background-color: var(--primary-white);
+            border-bottom: 1px solid var(--border-color); /* Light border */
+        }
+        /* Specific rule for initial header to ensure it's visible by default */
+        .site-header--initial {
+            display: block !important;
+            position: relative; /* Ensure it doesn't overlap weirdly with sticky unless controlled by JS */
+            z-index: 10; /* Ensure it's above other content */
+        }
+
+        .site-header .nav-link,
+        .site-footer .nav-link,
+        .site-footer a {
+            color: var(--primary-blue) !important; /* Blue for navigation links */
+        }
+
+        .site-header .nav-link:hover,
+        .site-footer .nav-link:hover,
+        .site-footer a:hover {
+            color: var(--primary-red) !important; /* Red on hover */
+        }
+
+        /* Logo Fix: Revert logo to original state by removing color filter */
+        .site-logo img {
+            filter: none !important; /* Remove any inherited filter */
+        }
+
+
+        /* Headings */
+        h1, h2, h3, h4, h5, h6, .body-title {
+            color: var(--primary-blue) !important;
+        }
+        .body-title strong.type2 {
+            color: var(--primary-red) !important; /* Highlight specific text in red */
+        }
+
+        /* Buttons */
+        .btn-dark,
+        .btn-with-arrow--dark {
+            background-color: var(--primary-blue) !important;
+            color: var(--text-light) !important;
+            border: 1px solid var(--primary-blue) !important;
+        }
+
+        .btn-dark:hover,
+        .btn-with-arrow--dark:hover {
+            background-color: var(--primary-red) !important;
+            border-color: var(--primary-red) !important;
+        }
+
+        .btn-with-arrow--warning { /* This was yellow, now red */
+            background-color: var(--primary-red) !important;
+            color: var(--text-light) !important;
+            border: 1px solid var(--primary-red) !important;
+        }
+
+        .btn-with-arrow--warning:hover {
+            background-color: var(--primary-blue) !important;
+            border-color: var(--primary-blue) !important;
+        }
+
+        .btn-with-arrow--white { /* For sections with dark backgrounds, use white button with blue/red text */
+            background-color: var(--primary-white) !important;
+            color: var(--primary-blue) !important;
+            border: 1px solid var(--primary-white) !important;
+        }
+
+        .btn-with-arrow--white:hover {
+            color: var(--primary-red) !important;
+        }
+
+        .btn-with-arrow .btn-label, .btn-with-arrow .btn-value {
+             color: inherit !important; /* Ensure text color is inherited from button */
+        }
+
+
+        /* Links and Icons */
+        a, .read-more {
+            color: var(--primary-blue) !important;
+        }
+
+        a:hover, .read-more:hover {
+            color: var(--primary-red) !important;
+        }
+
+        .icon-arrow-right, .icon-chair-office {
+            color: var(--primary-white) !important; /* Icons inside colored buttons */
+        }
+
+        /* Phone SVG Icons - adjust fill colors directly */
+        .btn-phone svg .circle {
+            fill: var(--primary-red) !important; /* Change yellow circle to red */
+        }
+        .btn-phone svg .path {
+            fill: var(--text-light) !important; /* Change black path to white */
+            stroke: var(--text-light) !important; /* Ensure stroke is white too if present */
+        }
+        .ico-phone .svgCricle {
+            fill: var(--primary-red) !important; /* Change yellow circle to red */
+        }
+        .ico-phone path {
+            fill: var(--text-light) !important; /* Change black path to white */
+            stroke: var(--text-light) !important; /* Ensure stroke is white too if present */
+        }
+
+        /* Client Testimonials */
+        .client-testimonials .floating-quote img {
+            /* If the quote SVG is monochrome, try filter to make it red */
+             filter: brightness(0) saturate(100%) invert(18%) sepia(87%) saturate(5412%) hue-rotate(345deg) brightness(97%) contrast(97%); /* Example: turning a black logo red */
+        }
+
+        /* Our Offer Section Icons - Assuming these are SVG and can be styled */
+        .offer-item .ico-holder img {
+            /* This is tricky as images are loaded. If they were SVGs, filter would work.
+               For now, we leave them as is, or suggest replacing the images if possible. */
+        }
+
+        /* Footer Specifics */
+        .site-footer__top, .site-footer__middle, .site-footer__btm {
+            background-color: var(--primary-blue) !important; /* Blue footer */
+            color: var(--text-light) !important;
+        }
+        .site-footer h2, .site-footer h5, .site-footer .copyright, .site-footer .siteby {
+            color: var(--text-light) !important;
+        }
+        .site-footer .quick-links a, .site-footer .foot-nav a {
+            color: var(--text-light) !important;
+        }
+        .site-footer .quick-links a:hover, .site-footer .foot-nav a:hover {
+            color: var(--primary-red) !important;
+        }
+        .site-contact-info-box .label, .site-contact-info-box .value a {
+            color: var(--text-light) !important;
+        }
+        .site-contact-info-box .ico {
+            filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7499%) hue-rotate(185deg) brightness(100%) contrast(100%); /* Turns black SVG to white */
+        }
+
+        /* Modern Feel Enhancements */
+        /* Rounded corners for various elements */
+        .mobile-menu,
+        .site-header,
+        .site-header--initial,
+        .site-footer,
+        .hero-banner-2,
+        .hero-banner-2 img, /* Ensure images within banner are also rounded */
+        .about-short-info,
+        .our-offer,
+        .home-categories,
+        .start-with-talented-team,
+        .industry-powered-by,
+        .diverse-selection .item,
+        .about-section,
+        .process-guide .box,
+        .showrooms-image-with-info .info-content,
+        .furnish-space,
+        .our-clients,
+        .client-testimonials,
+        .btn, .btn-with-arrow,
+        input[type="button"],
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            border-radius: 8px !important; /* Apply consistent rounded corners */
+        }
+        /* Adjust for elements that might need larger or specific rounding */
+        .hero-banner-2 .banner-frame {
+            border-radius: 12px;
+            overflow: hidden; /* To clip content within rounded corners */
+        }
+
+        /* Subtle box shadows for depth and interactivity */
+        .btn, .btn-with-arrow,
+        .offer-item,
+        .diverse-selection .item,
+        .content-holder,
+        .site-contact-info-box {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* Soft shadow for depth */
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transitions for hover effects */
+        }
+
+        .btn:hover, .btn-with-arrow:hover,
+        .offer-item:hover,
+        .diverse-selection .item:hover {
+            transform: translateY(-2px); /* Slight lift on hover */
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12); /* Slightly larger shadow on hover */
+        }
+
+        /* Ensure specific overrides take precedence for buttons etc. */
+        .btn-dark, .btn-with-arrow--dark,
+        .btn-with-arrow--warning,
+        .btn-with-arrow--white {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slightly more prominent shadow for colored buttons */
+        }
+
+        .btn-dark:hover, .btn-with-arrow--dark:hover,
+        .btn-with-arrow--warning:hover,
+        .btn-with-arrow--white:hover {
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+    <script type="text/javascript">
+        var contactform = [];
+        var checkIfCalled = true;
+        var renderGoogleInvisibleRecaptchaFront = function() {
+            // prevent form submit from enter key
+            jQuery("input[name=_wpcf7]").attr("class", "formid");
+            jQuery('.wpcf7-form').on('keyup keypress', "input", function(e) {
+                var keyCode = e.keyCode || e.which;
+                if (keyCode === 13) {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+
+            jQuery('.wpcf7-submit').each(function(index) {
+
+                var checkexclude = 0;
+                var form = jQuery(this).closest('.wpcf7-form');
+                var value = jQuery(form).find(".formid").val();
+                // check form exclude from invisible recaptcha
+                if (checkexclude == 0) {
+                    // Hide the form orig submit button
+                    form.find('.wpcf7-submit').hide();
+
+                    // Fetch class and value of orig submit button
+                    btnClasses = form.find('.wpcf7-submit').attr('class');
+                    btnValue = form.find('.wpcf7-submit').attr('value');
+
+                    // Add custom button and recaptcha holder
+
+                    form.find('.wpcf7-submit').after('<input type="button" id="wpcf-custom-btn-' + index + '" class="' + btnClasses + '  recaptcha-btn recaptcha-btn-type-css" value="' + btnValue + '" title="' + btnValue + '" >');
+                    form.append('<div class="recaptcha-holder" id="recaptcha-holder-' + index + '"></div>');
+                    // Recaptcha rendenr from here
+                    var holderId = grecaptcha.render('recaptcha-holder-' + index, {
+                        'sitekey': '6LcG3T8hAAAAABfiALsAurNDlTjyWEDzJ1HL73e6',
+                        'size': 'invisible',
+                        'badge': 'bottomright', // possible values: bottomright, bottomleft, inline
+                        'callback': function(recaptchaToken) {
+                            //console.log(recaptchaToken);
+                            var response = jQuery('#recaptcha-holder-' + index).find('.g-recaptcha-response').val();
+                            //console.log(response);
+                            //Remove old response and store new respone
+                            jQuery('#recaptcha-holder-' + index).parent().find(".respose_post").remove();
+                            jQuery('#recaptcha-holder-' + index).after('<input type="hidden" name="g-recaptcha-response"  value="' + response + '" class="respose_post">')
+                            grecaptcha.reset(holderId);
+
+                            if (typeof customCF7Validator !== 'undefined') {
+                                if (!customCF7Validator(form)) {
+                                    return;
+                                }
+                            }
+                            // Call default Validator function
+                            else if (contactFormDefaultValidator(form)) {
+                                return;
+                            } else {
+                                // hide the custom button and show orig submit button again and submit the form
+                                jQuery('#wpcf-custom-btn-' + index).hide();
+                                form.find('input[type=submit]').show();
+                                form.find("input[type=submit]").click();
+                                form.find('input[type=submit]').hide();
+                                jQuery('#wpcf-custom-btn-' + index).attr('style', '');
+                            }
+                        }
+                    }, false);
+
+                    // action call when click on custom button
+                    jQuery('#wpcf-custom-btn-' + index).click(function(event) {
+                        event.preventDefault();
+                        // Call custom validator function
+                        if (typeof customCF7Validator == 'function') {
+                            if (!customCF7Validator(form)) {
+                                return false;
+                            }
+                        }
+                        // Call default Validator function
+                        else if (contactFormDefaultValidator(form)) {
+                            return false;
+                        } else if (grecaptcha.getResponse(holderId) != '') {
+                            grecaptcha.reset(holderId);
+                        } else {
+                            // execute the recaptcha challenge
+                            grecaptcha.execute(holderId);
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=renderGoogleInvisibleRecaptchaFront&render=explicit" async defer></script>
+    <meta name='robots' content='max-image-preview:large' />
+    <style>
+        img:is([sizes="auto" i], [sizes^="auto," i]) {
+            contain-intrinsic-size: 3000px 1500px
+        }
+    </style>
+    <link rel="alternate" type="application/rss+xml" title="Court Street Office Furniture &raquo; Feed" href="https://courtofficefurniture.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Court Street Office Furniture &raquo; Comments Feed" href="https://courtofficefurniture.com/comments/feed/" />
+    <script>
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/courtofficefurniture.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.1"
+            }
+        };
+        /*! This file is auto-generated */
+        ! function(i, n) {
+            var o, s, e;
+
+            function c(e) {
+                try {
+                    var t = {
+                        supportTests: e,
+                        timestamp: (new Date).valueOf()
+                    };
+                    sessionStorage.setItem(o, JSON.stringify(t))
+                } catch (e) {}
+            }
+
+            function p(e, t, n) {
+                e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+                var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+                    r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                return t.every(function(e, t) {
+                    return e === r[t]
+                })
+            }
+
+            function u(e, t, n) {
+                switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                    case "emoji":
+                        return !n(e, "\ud83d\udc26\u200d\ud83d\udd25", "\ud83d\udc26\u200b\ud83d\udd25")
+                }
+                return !1
+            }
+
+            function f(e, t, n) {
+                var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"),
+                    a = r.getContext("2d", {
+                        willReadFrequently: !0
+                    }),
+                    o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
+                return e.forEach(function(e) {
+                    o[e] = t(a, e, n)
+                }), o
+            }
+
+            function t(e) {
+                var t = i.createElement("script");
+                t.src = e, t.defer = !0, i.head.appendChild(t)
+            }
+            "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
+                everything: !0,
+                everythingExceptFlag: !0
+            }, e = new Promise(function(e) {
+                i.addEventListener("DOMContentLoaded", e, {
+                    once: !0
+                })
+            }), new Promise(function(t) {
+                var n = function() {
+                    try {
+                        var e = JSON.parse(sessionStorage.getItem(o));
+                        if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+                    } catch (e) {}
+                    return null
+                }();
+                if (!n) {
+                    if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+                        var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));",
+                            r = new Blob([e], {
+                                type: "text/javascript"
+                            }),
+                            a = new Worker(URL.createObjectURL(r), {
+                                name: "wpTestEmojiSupports"
+                            });
+                        return void(a.onmessage = function(e) {
+                            c(n = e.data), a.terminate(), t(n)
+                        })
+                    } catch (e) {}
+                    c(n = f(s, u, p))
+                }
+                t(n)
+            }).then(function(e) {
+                for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function() {
+                    n.DOMReady = !0
+                }
+            }).then(function() {
+                return e
+            }).then(function() {
+                var e;
+                n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+            }))
+        }((window, document), window._wpemojiSettings);
+    </script>
+    <style id='wp-emoji-styles-inline-css'>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='https://courtofficefurniture.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.1' media='all' />
+    <style id='classic-theme-styles-inline-css'>
+        /*! This file is auto-generated */
+
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id='global-styles-inline-css'>
+        :root {
+            --wp--preset--aspect-ratio--square: 1;
+            --wp--preset--aspect-ratio--4-3: 4/3;
+            --wp--preset--aspect-ratio--3-4: 3/4;
+            --wp--preset--aspect-ratio--3-2: 3/2;
+            --wp--preset--aspect-ratio--2-3: 2/3;
+            --wp--preset--aspect-ratio--16-9: 16/9;
+            --wp--preset--aspect-ratio--9-16: 9/16;
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .is-layout-flex> :is(*, div) {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        .is-layout-grid> :is(*, div) {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :root :where(.wp-block-pullquote) {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel='stylesheet' id='contact-form-7-css' href='https://courtofficefurniture.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.6' media='all' />
+    <link rel='stylesheet' id='search-filter-plugin-styles-css' href='https://courtofficefurniture.com/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=2.5.12' media='all' />
+    <link rel='stylesheet' id='court_st-style-css' href='https://courtofficefurniture.com/wp-content/themes/courtst/style.css?ver=1.0.0' media='all' />
+    <script src="https://courtofficefurniture.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+    <script src="https://courtofficefurniture.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+    <script src="https://courtofficefurniture.com/wp-content/plugins/cf7-invisible-recaptcha/js/cf7_invisible_recaptcha.js?ver=1.2.3" id="cf7_invisible_recaptcha_functions-js"></script>
+    <script id="search-filter-plugin-build-js-extra">
+        var SF_LDATA = {
+            "ajax_url": "https:\/\/courtofficefurniture.com\/wp-admin\/admin-ajax.php",
+            "home_url": "https:\/\/courtofficefurniture.com\/",
+            "extensions": []
+        };
+    </script>
+    <script src="https://courtofficefurniture.com/wp-content/plugins/search-filter-pro/public/assets/js/search-filter-build.min.js?ver=2.5.12" id="search-filter-plugin-build-js"></script>
+    <script src="https://courtofficefurniture.com/wp-content/plugins/search-filter-pro/public/assets/js/chosen.jquery.min.js?ver=2.5.12" id="search-filter-plugin-chosen-js"></script>
+    <link rel="https://api.w.org/" href="https://courtofficefurniture.com/wp-json/" />
+    <link rel="alternate" title="JSON" type="application/json" href="https://courtofficefurniture.com/wp-json/wp/v2/pages/6" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://courtofficefurniture.com/xmlrpc.php?rsd" />
+    <meta name="generator" content="WordPress 6.8.1" />
+    <link rel="canonical" href="https://courtofficefurniture.com/" />
+    <link rel='shortlink' href='https://courtofficefurniture.com/' />
+    <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://courtofficefurniture.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcourtofficefurniture.com%2F" />
+    <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://courtofficefurniture.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcourtofficefurniture.com%2F&#038;format=xml" />
+    <link rel="icon" href="https://courtofficefurniture.com/wp-content/uploads/2022/08/cropped-cropped-site_logo-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://courtofficefurniture.com/wp-content/uploads/2022/08/cropped-cropped-site_logo-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://courtofficefurniture.com/wp-content/uploads/2022/08/cropped-cropped-site_logo-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://courtofficefurniture.com/wp-content/uploads/2022/08/cropped-cropped-site_logo-270x270.png" />
+</head>
+
+<body class="home wp-singular page-template-default page page-id-6 wp-theme-courtst">
+    <div id="page" class="site">
+        <div class="mobile-menu d-xl-none">
+            <div class="d-flex flex-column h-100">
+                <div class="col-auto w-100 container">
+                    <div class="mobile-menu__header">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-auto">
+                                <a class="site-logo" href="https://courtofficefurniture.com"><img class="w-100" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/sticky-site-logo.svg" alt="Court Street Office Furniture Logo"></a>
+                            </div>
+                            <div class="col-auto">
+                                <div class="close-mobile-menu"><img class="w-100" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/menu-close.svg" alt="Close menu icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-grow-1 w-100 mobile-menu__body">
+                    <div class="container">
+                        <div class="main-nav">
+                            <ul id="menu-header-menu" class="nav">
+                                <li class="menu-item has-submenu"><a href="https://courtofficefurniture.com/catalog/" class="nav-link ">Products</a><span class="drop-arrow"></span>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=workstation" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/workstation.svg" alt="Workstation icon"></span>Workstation</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/healthcare?_sft_catalog=healthcare" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/healthcare.svg" alt="Healthcare icon"></span>Healthcare</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/conference?_sft_catalog=conference" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/conference.svg" alt="Conference icon"></span>Conference</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/office-suites?_sft_catalog=office-suites" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/office_suites.svg" alt="Office suites icon"></span>Office Suites</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/reception?_sft_catalog=reception" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/reception.svg" alt="Reception icon"></span>Reception</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/lounge-cafe?_sft_catalog=lounge-cafe" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/cafe.svg" alt="Lounge/Cafe icon"></span>Lounge/Cafe</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/seating?_sft_catalog=seating" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/seating.svg" alt="Seating icon"></span>Seating</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/file-systems?_sft_catalog=file-systems" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/filesystems.svg" alt="File systems icon"></span>File Systems</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/common-areas?_sft_catalog=common-areas" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/common_areas.svg" alt="Common areas icon"></span>Common Areas</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/stock?_sft_catalog=stock" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/stock.svg" alt="Stock icon"></span>Stock</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=tables" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2023/01/tables.svg" alt="Tables icon"></span>Tables</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=education" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2023/01/education.svg" alt="Education icon"></span>Education</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item has-submenu"><a href="https://courtofficefurniture.com/about/" class="nav-link ">About</a><span class="drop-arrow"></span>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/about/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>About Us</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/about?#abouthistory1" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>History</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/people" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>People</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/about#showrooms" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>Showrooms</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item has-submenu"><a href="https://courtofficefurniture.com/workspace" class="nav-link ">Spaces</a><span class="drop-arrow"></span>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/workspace/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>workspace</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/healthcare/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>Healthcare</a></li>
+                                        <li class="menu-item"><a href="https://courtofficefurniture.com/education/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>Education</a></li>
+                                        <li class="menu-item"><a href="https://alpifurniture.com/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>Custom Woodwork</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item"><a href="https://courtofficefurniture.com/projects/" class="nav-link">Projects</a></li>
+                                <li class="menu-item"><a target="_blank" class="nav-link">Custom Woodwork</a></li>
+                                <li class="menu-item"><a href="https://courtofficefurniture.com/brands/" class="nav-link">Brands</a></li>
+                                <li class="menu-item"><a href="https://courtofficefurniture.com/contact/" class="nav-link">Contact</a></li>
+                            </ul>
+                        </div>
+                        <h2 class="body-title">
+                            We’re with you, from planning to showroom to installation.
+                        </h2>
+                        <div>
+                            <a class="btn btn-dark" href="https://courtofficefurniture.com/contact">Contact</a>
+                        </div>
+                        <div class="site-contact-info-box row no-gutters">
+                            <div class="col item item--email">
+                                <div class="form-row align-items-center">
+                                    <div class="col-md-auto">
+                                        <img class="ico" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/email.svg" alt="Email icon">
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="label">We’d love to hear from you!</div>
+                                        <div class="value">
+                                            <a href="mailto:info@courtofficefurniture.com" target="_blank">info@courtofficefurniture.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto item item--call">
+                                <div class="form-row align-items-center">
+                                    <div class="col-md-auto">
+                                        <img class="ico" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/phone.svg" alt="Phone icon">
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="label">Call us at</div>
+                                        <div class="value">
+                                            <a href="tel:7184993015" target="_blank">718-499-3015</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto w-100 mobile-menu__footer mt-auto">
+                    <div class="container">
+                        <div class="copyright">
+                            &copy; Court Street Office Furniture. All rights reserved.
+                        </div>
+                        <div class="siteby">
+                            site by <a href="https://wearelion.nyc/" target="_blank">wearelion.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SITE HEADER - Main initial header -->
+        <header class="site-header site-header--initial">
+            <div class="container-fluid">
+                <div class="inner-container">
+                    <div class="row justify-content-between">
+                        <div class="col">
+                            <div class="floating-logo-wrapper">
+                                <!-- Original site logo for initial load -->
+                                <a class="site-logo" href="https://courtofficefurniture.com"><img class="w-100" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/site-logo.svg" alt="Court Street Office Furniture Logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-auto d-none d-xl-block">
+                            <div class="main-nav">
+                                <ul id="menu-header-menu-2" class="nav">
+                                    <li class="menu-item has-submenu"><a href="https://courtofficefurniture.com/catalog/" class="nav-link ">Products</a><span class="drop-arrow"></span>
+                                        <ul class="submenu">
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=workstation" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/workstation.svg" alt="Workstation icon"></span>Workstation</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/healthcare?_sft_catalog=healthcare" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/healthcare.svg" alt="Healthcare icon"></span>Healthcare</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/conference?_sft_catalog=conference" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/conference.svg" alt="Conference icon"></span>Conference</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/office-suites?_sft_catalog=office-suites" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/office_suites.svg" alt="Office suites icon"></span>Office Suites</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/reception?_sft_catalog=reception" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/reception.svg" alt="Reception icon"></span>Reception</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/lounge-cafe?_sft_catalog=lounge-cafe" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/cafe.svg" alt="Lounge/Cafe icon"></span>Lounge/Cafe</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/seating?_sft_catalog=seating" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/seating.svg" alt="Seating icon"></span>Seating</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/file-systems?_sft_catalog=file-systems" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/filesystems.svg" alt="File systems icon"></span>File Systems</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/common-areas?_sft_catalog=common-areas" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/common_areas.svg" alt="Common areas icon"></span>Common Areas</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/stock?_sft_catalog=stock" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/stock.svg" alt="Stock icon"></span>Stock</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=tables" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2023/01/tables.svg" alt="Tables icon"></span>Tables</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=education" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2023/01/education.svg" alt="Education icon"></span>Education</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item has-submenu"><a href="https://courtofficefurniture.com/about/" class="nav-link ">About</a><span class="drop-arrow"></span>
+                                        <ul class="submenu">
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/about/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>About Us</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/about?#abouthistory1" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>History</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/people" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>People</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/about#showrooms" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>Showrooms</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item has-submenu"><a href="https://courtofficefurniture.com/workspace" class="nav-link ">Spaces</a><span class="drop-arrow"></span>
+                                        <ul class="submenu">
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/workspace/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>workspace</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/healthcare/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>Healthcare</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/education/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>Education</a></li>
+                                            <li class="menu-item"><a href="https://alpifurniture.com/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>Custom Woodwork</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item"><a href="https://courtofficefurniture.com/projects/" class="nav-link">Projects</a></li>
+                                    <li class="menu-item"><a target="_blank" class="nav-link">Custom Woodwork</a></li>
+                                    <li class="menu-item"><a href="https://courtofficefurniture.com/brands/" class="nav-link">Brands</a></li>
+                                    <li class="menu-item"><a href="https://courtofficefurniture.com/contact/" class="nav-link">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-auto d-xl-none">
+                            <div class="row gutters-20 align-items-center">
+                                <div class="col-auto">
+                                    <div class="btn-phone">
+                                        <a href="tel:7184993015" target="_blank">
+                           <svg preserveAspectRatio="none" class="w-100" viewBox="0 0 29 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle class="circle" cx="19.5995" cy="14.0593" r="8.49279" fill="#FECE46"/>
+                              <path class="path" d="M6.14875 4.17994C5.01126 3.02478 3.92002 2.07147 2.96178 1.5509C1.8933 2.57538 1.36312 3.61752 1.1888 4.63999C1.00101 5.74143 1.21748 6.8718 1.705 7.99998C2.68782 10.2743 4.71985 12.4255 6.42785 14.0916L6.42795 14.0915L6.43614 14.0999C8.11634 15.8221 10.2745 17.8612 12.5525 18.8475C13.6825 19.3368 14.8137 19.554 15.9154 19.3666C16.937 19.1929 17.9779 18.6638 19.0012 17.5978C18.4889 16.6818 17.6011 15.6237 16.514 14.5461C15.8022 15.2742 15.1357 15.7683 14.4809 16.0375C13.7039 16.357 12.9701 16.3487 12.2548 16.0876C11.5609 15.8344 10.9023 15.3499 10.2381 14.7541C9.66791 14.2424 9.06433 13.6209 8.41086 12.948C8.3028 12.8368 8.19337 12.7241 8.08251 12.6103C7.9457 12.4746 7.81046 12.3412 7.67725 12.2097C7.03703 11.5779 6.44404 10.9927 5.95233 10.4405C5.35851 9.77359 4.87385 9.11374 4.61902 8.42102C4.3563 7.70682 4.3442 6.97441 4.66195 6.1995C4.92934 5.54742 5.42185 4.88541 6.14875 4.17994Z" stroke="black" stroke-width="0.94634"/>
+                           </svg>
+                           </a>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="btn-burger">
+                                        <img class="w-100" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/burger-menu.svg" alt="Menu icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- SITE HEADER - Sticky header for when the user scrolls down -->
+        <header class="site-header site-header--sticky">
+            <div class="container-fluid">
+                <div class="inner-container">
+                    <div class="row align-items-center align-items-xl-stretch justify-content-between">
+                        <div class="col-auto d-flex flex-column justify-content-center">
+                            <!-- Sticky site logo -->
+                            <a class="site-logo" href="https://courtofficefurniture.com"><img class="w-100" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/sticky-site-logo.svg" alt="Court Street Office Furniture Sticky Logo"></a>
+                        </div>
+                        <div class="col-auto d-none d-xl-block">
+                            <div class="main-nav">
+                                <ul id="menu-header-menu-1" class="nav">
+                                    <li class="menu-item has-submenu"><a href="https://courtofficefurniture.com/catalog/" class="nav-link ">Products</a><span class="drop-arrow"></span>
+                                        <ul class="submenu">
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=workstation" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/workstation.svg" alt="Workstation icon"></span>Workstation</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/healthcare?_sft_catalog=healthcare" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/healthcare.svg" alt="Healthcare icon"></span>Healthcare</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/conference?_sft_catalog=conference" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/conference.svg" alt="Conference icon"></span>Conference</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/office-suites?_sft_catalog=office-suites" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/office_suites.svg" alt="Office suites icon"></span>Office Suites</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/reception?_sft_catalog=reception" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/reception.svg" alt="Reception icon"></span>Reception</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/lounge-cafe?_sft_catalog=lounge-cafe" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/cafe.svg" alt="Lounge/Cafe icon"></span>Lounge/Cafe</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/seating?_sft_catalog=seating" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/seating.svg" alt="Seating icon"></span>Seating</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/file-systems?_sft_catalog=file-systems" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/filesystems.svg" alt="File systems icon"></span>File Systems</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/common-areas?_sft_catalog=common-areas" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/common_areas.svg" alt="Common areas icon"></span>Common Areas</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/stock?_sft_catalog=stock" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2022/08/stock.svg" alt="Stock icon"></span>Stock</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=tables" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2023/01/tables.svg" alt="Tables icon"></span>Tables</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=education" class="nav-link"> <span class="menu-item-ico"><img src="https://courtofficefurniture.com/wp-content/uploads/2023/01/education.svg" alt="Education icon"></span>Education</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item has-submenu"><a href="https://courtofficefurniture.com/about/" class="nav-link ">About</a><span class="drop-arrow"></span>
+                                        <ul class="submenu">
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/about/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>About Us</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/about?#abouthistory1" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>History</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/people" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>People</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/about#showrooms" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>Showrooms</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item has-submenu"><a href="https://courtofficefurniture.com/workspace" class="nav-link ">Spaces</a><span class="drop-arrow"></span>
+                                        <ul class="submenu">
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/workspace/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>workspace</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/healthcare/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>Healthcare</a></li>
+                                            <li class="menu-item"><a href="https://courtofficefurniture.com/education/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>Education</a></li>
+                                            <li class="menu-item"><a href="https://alpifurniture.com/" class="nav-link"> <span class="menu-item-ico"><img src="" alt=""></span>Custom Woodwork</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item"><a href="https://courtofficefurniture.com/projects/" class="nav-link">Projects</a></li>
+                                    <li class="menu-item"><a target="_blank" class="nav-link">Custom Woodwork</a></li>
+                                    <li class="menu-item"><a href="https://courtofficefurniture.com/brands/" class="nav-link">Brands</a></li>
+                                    <li class="menu-item"><a href="https://courtofficefurniture.com/contact/" class="nav-link">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-auto d-xl-none">
+                            <div class="row gutters-20 align-items-center">
+                                <div class="col-auto">
+                                    <div class="btn-phone">
+                                        <a href="tel:7184993015" target="_blank">
+                           <svg preserveAspectRatio="none" class="w-100" viewBox="0 0 29 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle class="circle" cx="19.5995" cy="14.0593" r="8.49279" fill="#FECE46"/>
+                              <path class="path" d="M6.14875 4.17994C5.01126 3.02478 3.92002 2.07147 2.96178 1.5509C1.8933 2.57538 1.36312 3.61752 1.1888 4.63999C1.00101 5.74143 1.21748 6.8718 1.705 7.99998C2.68782 10.2743 4.71985 12.4255 6.42785 14.0916L6.42795 14.0915L6.43614 14.0999C8.11634 15.8221 10.2745 17.8612 12.5525 18.8475C13.6825 19.3368 14.8137 19.554 15.9154 19.3666C16.937 19.1929 17.9779 18.6638 19.0012 17.5978C18.4889 16.6818 17.6011 15.6237 16.514 14.5461C15.8022 15.2742 15.1357 15.7683 14.4809 16.0375C13.7039 16.357 12.9701 16.3487 12.2548 16.0876C11.5609 15.8344 10.9023 15.3499 10.2381 14.7541C9.66791 14.2424 9.06433 13.6209 8.41086 12.948C8.3028 12.8368 8.19337 12.7241 8.08251 12.6103C7.9457 12.4746 7.81046 12.3412 7.67725 12.2097C7.03703 11.5779 6.44404 10.9927 5.95233 10.4405C5.35851 9.77359 4.87385 9.11374 4.61902 8.42102C4.3563 7.70682 4.3442 6.97441 4.66195 6.1995C4.92934 5.54742 5.42185 4.88541 6.14875 4.17994Z" stroke="black" stroke-width="0.94634"/>
+                           </svg>
+                           </a>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="btn-burger">
+                                        <img class="w-100" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/burger-menu.svg" alt="Menu icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- END SITE HEADER -->
+        <main class="site-main">
+            <div class="hero-banner-2" id="pushTopHeaderheight">
+                <div class="banner-slider d-none d-md-block">
+                    <div class="banner-frame" style="background-image:url(https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/banner-frame.svg)">
+
+                    </div>
+                    <div class="swiper js-hero-banner-2-slider">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <img class="w-100 d-none d-md-block" src="https://courtofficefurniture.com/wp-content/uploads/2023/02/court-street-homepage-banner-template-3-scaled.jpg" alt="">
+                                <img class="w-100 d-md-none" src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer-container">
+                    <div class="bgMobile" style="background-image:url(https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/home-banner-bg-mobile.jpg)"></div>
+                    <div class="container">
+                        <div class="inner-container">
+                            <div class="row no-gutters justify-content-md-end">
+                                <div class="col-6 column-mobile-banner-slider d-md-none">
+                                    <div class="swiper js-hero-banner-2-slider-mobile">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+
+                                                <img class="w-100 d-block" src="https://courtofficefurniture.com/wp-content/uploads/2023/02/court-street-mobile-banner.png" alt="">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col content-holder fadeInUpInitial">
+                                    <h1 class="font-weight-normal">
+                                        <div class="d-block"><span class="type1">Design your</span> </div>
+                                        <div class="d-block"><strong class="type2">Ideal Workspace.</strong></div>
+                                    </h1>
+                                    <div class="wrap">
+                                        <p>
+                                            Choose the design and comfort that will <strong>boost
+                                        your office productivity.</strong>
+                                        </p>
+                                        <a class="btn-with-arrow" href="https://courtofficefurniture.com/catalog/stock?_sft_catalog=stock">
+                                            <div class="form-row align-items-center">
+                                                <div class="col-auto ico-holder">
+                                                    <span class="icon-chair-office"></span>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="btn-label">Browse</div>
+                                                    <div class="btn-value">Catalog</div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <span class="icon-arrow-right"></span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-light">
+                <div class="about-short-info">
+                    <div class="container js-has-stretch">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-md order-md-2 content-holder fadeInUp">
+                                <h2 class="title font-weight-light">
+                                    Four decades of <strong><em>proven
+                                    leadership</em></strong> in design and experience at your side.
+                                </h2>
+                                <div class="image-holder d-md-none">
+                                    <img class="w-100" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/four-decades-of-proven-leadership.jpg" alt="">
+                                </div>
+                                <div class="description gutters-end-0">
+                                    <p>
+                                        We take pride in providing value and the highest quality products to our customers.
+                                    </p>
+                                </div>
+                                <a class="btn-with-arrow btn-with-arrow--warning" href="tel:7184993015" target="_blank">
+                                    <div class="form-row align-items-center">
+                                        <div class="col-auto ico-holder">
+                                            <svg preserveAspectRatio="none" class="ico-phone" viewBox="0 0 51 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle class="svgCricle" cx="35.1404" cy="24.2519" r="15.748" fill="#FECE46" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4.14166 -9.15527e-05C-5.45014 8.55497 3.77865 18.7694 10.1042 24.9397C16.3262 31.3173 26.5406 40.5465 35.0957 30.9543C34.0587 28.8283 31.9328 26.3396 29.3923 23.9027C23.326 30.5912 20.2671 26.9618 14.4082 20.9471C8.4457 15.0364 4.76386 11.9772 11.4526 5.96304C8.91192 3.31873 6.37144 1.03743 4.1419 0.000535778L4.14166 -9.15527e-05Z"
+                                            fill="black" />
+                                    </svg>
+                                        </div>
+                                        <div class="col-auto">
+                                            <div class="btn-label">Call us at</div>
+                                            <div class="btn-value">718-499-3015</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <span class="icon-arrow-right"></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 d-none d-md-block image-holder ">
+                                <div class="js-stretch-left">
+                                    <img class="w-100 parallaxBlockUp" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/four-decades-of-proven-leadership.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-offer">
+                    <div class="container-fluid fadeInUp">
+                        <div class="inner-container-fluid">
+                            <div class="section-heading">
+                                <h3 class="font-weight-normal">
+                                    Court Street Office Furniture offers a <strong>complete solution for all your furniture
+                                needs.</strong> Once you get in touch with us, you can consider the work done!
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container fadeInUp">
+                        <div class="inner-container">
+                            <div class="offer-items">
+                                <div class="row justify-content-center js-stagger-items">
+                                    <div class="col-4 col-md offer-item js-stagger-item">
+                                        <div class="ico-holder">
+                                            <img class="ico" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/icon-planning.svg" alt="">
+                                        </div>
+                                        <h5 class="title">planning</h5>
+                                    </div>
+                                    <div class="col-4 col-md offer-item js-stagger-item">
+                                        <div class="ico-holder">
+                                            <img class="ico" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/icon-design.svg" alt="">
+                                        </div>
+                                        <h5 class="title">design</h5>
+                                    </div>
+                                    <div class="col-4 col-md offer-item js-stagger-item">
+                                        <div class="ico-holder">
+                                            <img class="ico" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/icon-sales.svg" alt="">
+                                        </div>
+                                        <h5 class="title">sales</h5>
+                                    </div>
+                                    <div class="col-4 col-md offer-item js-stagger-item">
+                                        <div class="ico-holder">
+                                            <img class="ico" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/icon-delivery.svg" alt="">
+                                        </div>
+                                        <h5 class="title">delivery</h5>
+                                    </div>
+                                    <div class="col-4 col-md offer-item js-stagger-item">
+                                        <div class="ico-holder">
+                                            <img class="ico" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/icon-installation.svg" alt="">
+                                        </div>
+                                        <h5 class="title">installation</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn-wrapper">
+                                <a class="btn-with-arrow btn-with-arrow--dark" href="https://courtofficefurniture.com/about">
+                                    <div class="form-row align-items-center">
+                                        <div class="col-auto">
+                                            <div class="btn-label">Learn</div>
+                                            <div class="btn-value">More</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <span class="icon-arrow-right"></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                <div class="home-categories">
+                    <div class="container">
+                        <div class="section-heading fadeInUp">
+                            <div class="row align-items-center">
+                                <div class="col-md gutters-end-0">
+                                    <h2>Products</h2>
+                                    <div class="subtitle">available in standard, semi-custom, & quick shipping options.</div>
+                                </div>
+                                <div class="col-md-auto">
+                                    <div class="swiper-buttons swiper-buttons--dark">
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-next"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper js-categories-slider fadeInUp">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=workstation">
+                                        <div class="image-holder">
+                                            <img class="w-100" src="https://courtofficefurniture.com/wp-content/uploads/2023/03/8.jpg" alt="">
+                                        </div>
+                                        <h6 class="title">Workstation</h6>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=healthcare">
+                                        <div class="image-holder">
+                                            <img class="w-100" src="https://courtofficefurniture.com/wp-content/uploads/2023/03/9.jpg" alt="">
+                                        </div>
+                                        <h6 class="title">Healthcare</h6>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=conference">
+                                        <div class="image-holder">
+                                            <img class="w-100" src="https://courtofficefurniture.com/wp-content/uploads/2023/03/Untitled-1.png" alt="">
+                                        </div>
+                                        <h6 class="title">Conference</h6>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=office-suites">
+                                        <div class="image-holder">
+                                            <img class="w-100" src="https://courtofficefurniture.com/wp-content/uploads/2023/03/Untitled-2.png" alt="">
+                                        </div>
+                                        <h6 class="title">Office Suites</h6>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=reception">
+                                        <div class="image-holder">
+                                            <img class="w-100" src="https://courtofficefurniture.com/wp-content/uploads/2023/03/6.jpg" alt="">
+                                        </div>
+                                        <h6 class="title">Reception</h6>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=lounge-cafe">
+                                        <div class="image-holder">
+                                            <img class="w-100" src="https://courtofficefurniture.com/wp-content/uploads/2023/03/Untitled-a1.png" alt="">
+                                        </div>
+                                        <h6 class="title">Lounge/Cafe</h6>
+                                    </div>
+                                <div class="swiper-slide">
+                                    <a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=seating">
+                                        <div class="image-holder">
+                                            <img class="w-100" src="https://courtofficefurniture.com/wp-content/uploads/2023/03/Untitled-f1.png" alt="">
+                                        </div>
+                                        <h6 class="title">Seating</h6>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=file-systems">
+                                        <div class="image-holder">
+                                            <img class="w-100" src="https://courtofficefurniture.com/wp-content/uploads/2023/03/Untitled-1e.png" alt="">
+                                        </div>
+                                        <h6 class="title">File Systems</h6>
+                                    </div>
+                                <div class="swiper-slide">
+                                    <a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=common-areas">
+                                        <div class="image-holder">
+                                            <img class="w-100" src="https://courtofficefurniture.com/wp-content/uploads/2023/03/4.jpg" alt="">
+                                        </div>
+                                        <h6 class="title">Common Areas</h6>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=stock">
+                                        <div class="image-holder">
+                                            <img class="w-100" src="https://courtofficefurniture.com/wp-content/uploads/2023/03/11.jpg" alt="">
+                                        </div>
+                                        <h6 class="title">Stock</h6>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="start-with-talented-team">
+                <div class="container js-has-stretch">
+                    <div class="row gutters-80 align-items-center">
+                        <div class="col-md-6 image-holder">
+                            <div class="js-stretch-left">
+                                <img class="w-100 parallaxBlockUp removePrallaxEffectOnMobile" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/meet-our-team.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md content-holder fadeInUp">
+                            <h4 class="title font-weight-normal">
+                                Our work starts as soon as your project does! Partner with our <strong><em>skilled
+                                and talented</em></strong> team to help you with your design and furniture process while you focus on building your business.
+                            </h4>
+                            <a class="btn-with-arrow btn-with-arrow--white" href="https://courtofficefurniture.com/contact">
+                                <div class="form-row align-items-center">
+                                    <div class="col-auto">
+                                        <div class="btn-label">Get</div>
+                                        <div class="btn-value">Started</div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <span class="icon-arrow-right"></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-light">
+                <div class="bg-squares-outline-wrapper" style="background-image:url(https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/squares-outline.svg)">
+                    <div class="industry-powered-by">
+                        <div class="container">
+                            <div class="inner-container">
+                                <div class="js-has-stretch">
+                                    <div class="row gutters-150 align-items-center">
+                                        <div class="col-md d-md-flex flex-column align-items-end column-content ">
+                                            <div class="box">
+                                                <h2>
+                                                    Our rise to the top of the industry has been powered by:
+                                                </h2>
+                                                <div class="items">
+                                                    <div class="item gutters-end-0">
+                                                        <h4 class="title has-bullet">Services</h4>
+                                                        <p>
+                                                            Our veteran sales team stands beside you from the early stages of planning until after your order is delivered and installed with excellence.
+                                                        </p>
+                                                    </div>
+                                                    <div class="item gutters-end-0">
+                                                        <h4 class="title has-bullet">Style</h4>
+                                                        <p>
+                                                            From the modern styles you covet to the functionalities your space demands, we help you furnish your space with flare and purpose.
+                                                        </p>
+                                                    </div>
+                                                    <div class="item gutters-end-0">
+                                                        <h4 class="title has-bullet">Selection</h4>
+                                                        <p>
+                                                            We serve the world of commerce, health and education, offering a comprehensive selection of designs, materials and price points.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 column-image">
+                                            <div class="js-stretch-right">
+                                                <img class="w-100 parallaxBlockUp removePrallaxEffectOnMobile" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/12.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="diverse-selection">
+                        <div class="container-fluid">
+                            <div class="inner-container-fluid">
+                                <div class="section-heading fadeInUp">
+                                    <h3>
+                                        Diverse selection to help you find exactly what you need to make your workday productive<span class="text-success dot">.</span>
+                                    </h3>
+                                </div>
+                                <div class="row gutters-90 items fadeInUp">
+                                    <div class="col-md-4 item js-stagger-item">
+                                        <div class="image-holder">
+                                            <img class="w-100" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/13.jpg" alt="">
+                                        </div>
+                                        <div class="content-holder row gutters-40">
+                                            <div class="col-auto gutters-end-0 elem-left">
+                                                <h6 class="title">Workstation</h6>
+                                            </div>
+                                            <div class="col elem-right">
+                                                <p>
+                                                    We help you redefine your workstation with modern and cutting-edge office furniture that are built to last.
+                                                </p>
+                                                <a class="read-more" href="https://courtofficefurniture.com/workspace">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 item js-stagger-item">
+                                        <div class="image-holder">
+                                            <img class="w-100" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/14.png" alt="">
+                                        </div>
+                                        <div class="content-holder row gutters-40">
+                                            <div class="col-auto gutters-end-0 elem-left">
+                                                <h6 class="title">Healthcare</h6>
+                                            </div>
+                                            <div class="col elem-right">
+                                                <p>
+                                                    Patients, caregivers and families are served with a host of solutions unique to their needs.
+                                                </p>
+                                                <a class="read-more" href="https://courtofficefurniture.com/healthcare">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 item js-stagger-item">
+                                        <div class="image-holder">
+                                            <img class="w-100" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/15.png" alt="">
+                                        </div>
+                                        <div class="content-holder row gutters-40">
+                                            <div class="col-auto gutters-end-0 elem-left">
+                                                <h6 class="title">Education</h6>
+                                            </div>
+                                            <div class="col elem-right">
+                                                <p>
+                                                    Our furniture experts raise the standards by outfitting the educational spaces of the future.
+                                                </p>
+                                                <a class="read-more" href="https://courtofficefurniture.com/education">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-section">
+                    <div class="container">
+                        <div class="inner-container">
+                            <div class="row align-items-center">
+                                <div class="col-md section-heading mb-md-0 fadeInUp">
+                                    <div class="subtitle">about</div>
+                                    <div class="short-section-info-text">Furnishing Success Since 1982</div>
+                                </div>
+                                <div class="floating-about-illustration">
+                                    <img class="w-100 parallaxBlockUp" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/about-illustration.png" alt="">
+                                </div>
+                                <div class="col-md-6 content-holder fadeInUp">
+                                    <h3 class="font-weight-normal">
+                                        For over 40 years, Court Street has been a <strong><em>trusted source</em></strong> in the U.S. to equip commercial and office space with <strong><em>integrity, care,
+                                        and attention to detail.</em></strong>
+                                    </h3>
+                                    <div class="description gutters-end-0">
+                                        <p>
+                                            Our goal is complete satisfaction from the initial lease signing through the final move-in. We will work with you to <strong><em>determine your exact needs</em></strong> and
+                                            <strong><em>provide innovative solutions</em></strong> while working within your budget.
+                                        </p>
+                                    </div>
+                                    <a class="read-more" href="https://courtofficefurniture.com/about"><u>Read More</u></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="process-guide">
+                <div class="container">
+                    <div class="inner-container js-has-stretch">
+                        <div class="row align-items-center">
+                            <div class="col-md-5 order-md-2 column-image">
+                                <div class="js-stretch-right js-stretch-left">
+                                    <img class="w-100" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/group-19981.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md column-content parallaxBlockUp removePrallaxEffectOnMobile">
+                                <div class="box pt-5">
+                                    <h2 class="font-weight-normal">Planning an office redesign or move?</h2>
+                                    <p>
+                                        Court Street will guide you through every step of the process, <strong>from layout
+                                    and design to ordering and installation.</strong> As leaders in this arena, we can best advise on available solutions and offer the support you need to create your ideal work environment - all at no additional charge.
+                                    </p>
+                                    <a class="btn-with-arrow btn-with-arrow--white" href="tel:7184993015" target="_blank">
+                                        <div class="form-row align-items-center">
+                                            <div class="col-auto ico-holder">
+                                                <svg preserveAspectRatio="none" class="ico-phone" viewBox="0 0 51 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle class="svgCricle" cx="35.1404" cy="24.2519" r="15.748"
+                                                fill="#FECE46" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4.14166 -9.15527e-05C-5.45014 8.55497 3.77865 18.7694 10.1042 24.9397C16.3262 31.3173 26.5406 40.5465 35.0957 30.9543C34.0587 28.8283 31.9328 26.3396 29.3923 23.9027C23.326 30.5912 20.2671 26.9618 14.4082 20.9471C8.4457 15.0364 4.76386 11.9772 11.4526 5.96304C8.91192 3.31873 6.37144 1.03743 4.1419 0.000535778L4.14166 -9.15527e-05Z"
+                                                fill="black" />
+                                        </svg>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="btn-label">Call us at</div>
+                                                <div class="btn-value">718-499-3015</div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <span class="icon-arrow-right"></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="showrooms-image-with-info">
+                <div class="container">
+                    <div class="inner-container">
+                        <div class="row no-gutters">
+                            <div class="col-md-7 image-holder ">
+                                <img class="w-100" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/16.jpg" alt="">
+                            </div>
+                            <div class="col-md content-holder ">
+                                <div class="info-content parallaxBlockUp">
+                                    <div class="subtitle">Showrooms</div>
+                                    <h2>see you in <em>court!</em></h2>
+                                    <p>
+                                        Visit our Brooklyn, NY or Lakewood, NJ showrooms for a glimpse of our vast product selections.
+                                    </p>
+                                    <a class="btn-with-arrow align-items-initial btn-with-arrow--white" href="https://courtofficefurniture.com/contact">
+                                        <div class="form-row align-items-center">
+                                            <div class="col">
+                                                <div class="btn-label">Schedule</div>
+                                                <div class="btn-value">Visit</div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <span class="icon-arrow-right"></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="furnish-space">
+                <div class="container">
+                    <div class="inner-container js-has-stretch">
+                        <div class="row gutters-120 align-items-center gutters-120">
+                            <div class="col-md-6 order-md-2 image-holder">
+                                <div class="js-stretch-right">
+                                    <img class="w-100 parallaxBlockUp" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/help-me-furnish-my-space.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md content-holder fadeInUp">
+                                <h4 class="font-weight-normal">
+                                    We cater to the needs of every industry.
+                                    <strong>If it needs to be furnished,
+                                it needs Court Street Office
+                                Furniture.</strong>
+                                </h4>
+                                <a class="btn-with-arrow btn-with-arrow--v2 btn-with-arrow--dark" href="https://courtofficefurniture.com/contact">
+                                    <div class="form-row align-items-center">
+                                        <div class="col-auto">
+                                            <div class="btn-label">Help Me</div>
+                                            <div class="btn-value">Furnish My space</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <span class="icon-arrow-right"></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our-clients">
+                <div class="container">
+                    <div class="section-heading fadeInUp">
+                        <div class="row justify-content-center">
+                            <div class="col-auto gutters-end-0">
+                                <h2 class="has-bullet">Our Clients</h2>
+                                <p>
+                                    Furnishing Success Since 1982
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="js-clients-slider-outer fadeInUp">
+                        <div class="swiper js-clients-slider">
+                            <div class="swiper-wrapper">
+
+
+
+
+                                <div class="swiper-slide">
+                                    <img src="https://courtofficefurniture.com/wp-content/uploads/2023/02/download.png" alt="">
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <img src="https://courtofficefurniture.com/wp-content/uploads/2023/02/Screenshot-2023-02-20-172625.png" alt="">
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <img src="https://courtofficefurniture.com/wp-content/uploads/2023/02/Screenshot-2023-02-20-172659.png" alt="">
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <img src="https://courtofficefurniture.com/wp-content/uploads/2023/02/logo.svg" alt="">
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <img src="https://courtofficefurniture.com/wp-content/uploads/2023/02/Screenshot-2023-02-20-175022.png" alt="">
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <img src="https://courtofficefurniture.com/wp-content/uploads/2023/02/logo-basic-blue-svg.svg" alt="">
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <img src="https://courtofficefurniture.com/wp-content/uploads/2023/02/Screenshot-2023-02-20-175211.png" alt="">
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <img src="https://courtofficefurniture.com/wp-content/uploads/2023/02/Screenshot-2023-02-20-175319.png" alt="">
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <img src="https://courtofficefurniture.com/wp-content/uploads/2023/02/new-logo-big2.png" alt="">
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <img src="https://courtofficefurniture.com/wp-content/uploads/2023/02/logo-Asset-1100.svg" alt="">
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <img src="https://courtofficefurniture.com/wp-content/uploads/2023/02/amtrust-financial-logo-vector.jpg" alt="">
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <img src="https://courtofficefurniture.com/wp-content/uploads/2023/02/Screenshot-2023-02-20-175649.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="clients-swiper-buttons">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="client-testimonials">
+                <div class="container">
+                    <div class="inner-container">
+                        <div class="row gutters-120 align-items-center justify-content-center fadeInUp">
+                            <div class="col-md-6 col-auto section-heading ">
+                                <div class="subtitle">client Testimonials</div>
+                                <h2><span class="floating-quote"><img class="w-100"
+                                    src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/quote-left.svg"
+                                    alt=""></span> friends of<br> the Court</h2>
+                            </div>
+                            <div class="col-md col-12 column-slider ">
+                                <div class="swiper js-client-testimonials">
+                                    <div class="swiper-wrapper">
+
+                                        <div class="swiper-slide">
+                                            <h6></h6>
+                                            <blockquote>
+                                                <p><span style="font-weight: 400;">The furnishings and structure are precisely what we wanted; they made our workplace seem more welcoming, and the staff enjoyed it!</span></p>
+                                            </blockquote>
+                                            <div class="avataar-info">
+                                                <div class="name"></div>
+                                                <div class="address"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <h6></h6>
+                                            <blockquote>
+                                                <p><span style="font-weight: 400;">The brand-new lounge area is fantastic. Our employees like spending time there because of the sophisticated and comfortable couches.</span></p>
+                                            </blockquote>
+                                            <div class="avataar-info">
+                                                <div class="name"></div>
+                                                <div class="address"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <h6>“Phenomenal job!</h6>
+                                            <blockquote>
+                                                <p><span style="font-weight: 400;">Amazing team! I’m impressed with how patient they were in achieving what I have envisioned for my company’s office.</span></p>
+                                            </blockquote>
+                                            <div class="avataar-info">
+                                                <div class="name">Quincy S.</div>
+                                                <div class="address">Austin, Texas</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <h6>“Phenomenal job!</h6>
+                                            <blockquote>
+                                                <p><span style="font-weight: 400;">The lounge is now a favorite spot for our team. The colors complemented our peaceful scenery outdoors and simply made the place stand out.</span></p>
+                                            </blockquote>
+                                            <div class="avataar-info">
+                                                <div class="name">Quincy S.</div>
+                                                <div class="address">Austin, Texas</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <h6></h6>
+                                            <blockquote>
+                                                <p><span style="font-weight: 400;">The consultants were very competent and skilled at what they do. My office turned out better than how I would ever envision it to be, thanks to their help.</span></p>
+                                            </blockquote>
+                                            <div class="avataar-info">
+                                                <div class="name"></div>
+                                                <div class="address"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <h6></h6>
+                                            <blockquote>
+                                                <p><span style="font-weight: 400;">Excellent work! The furniture we received is in top condition. Employees can focus entirely on their tasks thanks to their expertly designed workstations.</span></p>
+                                            </blockquote>
+                                            <div class="avataar-info">
+                                                <div class="name"></div>
+                                                <div class="address"></div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-buttons-wrapper d-flex justify-content-end">
+                                        <div class="swiper-buttons swiper-buttons--yellow swiper-buttons--sm">
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-button-next"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <footer class="site-footer">
+            <div class="container fadeInUp">
+                <div class="inner-container">
+                    <div class="site-footer__top">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 column-left">
+                                <h2>
+                                    We are with you, from initial planning to showroom visits to furniture selection until installation and final move-in.
+                                </h2>
+                            </div>
+                            <div class="col-md-6 d-md-flex flex-column align-items-end column-right">
+                                <div class="site-contact-info-box row no-gutters">
+                                    <div class="col item item--email">
+                                        <div class="form-row align-items-center">
+                                            <div class="col-md-auto">
+                                                <img class="ico" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/email.svg" alt="Email icon">
+                                            </div>
+                                            <div class="col-md">
+                                                <div class="label">We’d love to hear from you!</div>
+                                                <div class="value">
+                                                    <a href="mailto:sales@courtofficefurniture.com" target="_blank">sales@courtofficefurniture.com</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto item item--call">
+                                        <div class="form-row align-items-center">
+                                            <div class="col-md-auto">
+                                                <img class="ico" src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/phone.svg" alt="Phone icon">
+                                            </div>
+                                            <div class="col-md">
+                                                <div class="label">Call us at</div>
+                                                <div class="value">
+                                                    <a href="tel:7184993015" target="_blank">718-499-3015</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="site-footer__middle">
+                        <div class="row align-items-center">
+                            <div class="col-md column-left pr-lg-5">
+                                <a class="site-logo" href="https://courtofficefurniture.com"><img class="w-100"
+                                src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/images/footer-site-logo.svg"
+                                alt="Court Street Office Furniture Footer Logo"></a>
+                            </div>
+                            <div class="col-md-auto column-right">
+                                <div class="row gutters-70">
+                                    <div class="col-md-auto col-6 quick-links quick-links--1">
+                                        <h5 class="widget-title">products</h5>
+                                        <ul id="menu-footer-one" class="">
+                                            <li id="menu-item-186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186"><a href="https://courtofficefurniture.com/catalog/workstation?_sft_catalog=workstation">Workstation</a></li>
+                                            <li id="menu-item-226" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-226"><a href="https://courtofficefurniture.com/catalog/healthcare?_sft_catalog=healthcare">Healthcare</a></li>
+                                            <li id="menu-item-227" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-227"><a href="https://courtofficefurniture.com/catalog/conference?_sft_catalog=conference">Conference</a></li>
+                                            <li id="menu-item-228" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-228"><a href="https://courtofficefurniture.com/catalog/office-suites?_sft_catalog=office-suites">Office Suite</a></li>
+                                            <li id="menu-item-229" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-229"><a href="https://courtofficefurniture.com/catalog/reception?_sft_catalog=reception">Reception</a></li>
+                                            <li id="menu-item-230" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-230"><a href="https://courtofficefurniture.com/catalog/lounge-cafe?_sft_catalog=lounge-cafe">Lounge/Cafe</a></li>
+                                            <li id="menu-item-231" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-231"><a href="https://courtofficefurniture.com/catalog/seating">Seating</a></li>
+                                            <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="https://courtofficefurniture.com/catalog/file-systems">File Systems</a></li>
+                                            <li id="menu-item-233" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-233"><a href="https://courtofficefurniture.com/catalog/common-areas">Common Areas</a></li>
+                                            <li id="menu-item-234" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-234"><a href="https://courtofficefurniture.com/catalog/stock">Stock</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-auto col-6 quick-links quick-links--2">
+                                        <h5 class="widget-title">about</h5>
+                                        <ul id="menu-footer-two" class="">
+                                            <li id="menu-item-1129" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1129"><a href="https://courtofficefurniture.com/about">Why Choose Us</a></li>
+                                            <li id="menu-item-1776" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1776"><a href="https://courtofficefurniture.com/brands/">Brands</a></li>
+                                            <li id="menu-item-1131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1131"><a href="https://courtofficefurniture.com/about?#abouthistory1">History</a></li>
+                                            <li id="menu-item-1133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1133"><a href="https://courtofficefurniture.com/about#showrooms">Showrooms</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-auto col-12 quick-links quick-links--3">
+                                        <h5 class="widget-title">how we work</h5>
+                                        <ul id="menu-footer-three" class="">
+                                            <li id="menu-item-9410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9410"><a href="https://courtofficefurniture.com/initial-design-consultation/">Initial Design Consultation</a></li>
+                                            <li id="menu-item-9279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9279"><a href="https://courtofficefurniture.com/how-we-work/">How We Work</a></li>
+                                            <li id="menu-item-9401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9401"><a href="https://courtofficefurniture.com/measurements/">Measurements</a></li>
+                                            <li id="menu-item-9278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9278"><a href="https://courtofficefurniture.com/planning-your-office/">Planning Your Office</a></li>
+                                            <li id="menu-item-9277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9277"><a href="https://courtofficefurniture.com/custom-furniture-solutions/">Custom Furniture Solutions</a></li>
+                                            <li id="menu-item-9407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9407"><a href="https://courtofficefurniture.com/3-d-drawings/">3-D Drawings</a></li>
+                                            <li id="menu-item-9276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9276"><a href="https://courtofficefurniture.com/delivery-and-installation/">Delivery and Installation</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="site-footer__btm">
+                        <div class="row align-items-center">
+                            <div class="col-md-auto order-md-2 foot-nav">
+                                <ul class="nav">
+                                    <li><a href="https://courtofficefurniture.com/contact">Contact</a></li>
+                                    <li><a href="https://courtofficefurniture.com/projects">Our Work</a></li>
+                                    <li><a href="https://courtofficefurniture.com/contact?#showrooms">Showrooms</a></li>
+                                    <li><a href="https://courtofficefurniture.com">FAQs</a></li>
+                                    <li><a href="https://courtofficefurniture.com">Privacy</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md">
+                                <div class="copyright">
+                                    &copy; Court Street Office Furniture. All rights reserved.
+                                </div>
+                                <div class="siteby">
+                                    site by <a href="https://wearelion.nyc/" target="_blank">wearelion.</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/js/plugins.min.js"></script>
+    <script src="https://courtofficefurniture.com/wp-content/themes/courtst/assets/js/scripts.min.js"></script>
+    <script>
+        jQuery(document).ready(function() {
+
+            jQuery("#menu-header-menu>li").each(function() {
+                jQuery(this).find('.drop-arrow').click(function() {
+                    jQuery(this).next('.submenu').slideToggle();
+                    jQuery(this).toggleClass('opened');
+                });
+            });
+
+        });
+    </script>
+    <script type="speculationrules">
+        {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/courtst\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch,
+        .no-prefetch a"}}]},"eagerness":"conservative"}]}
+    </script>
+    <script src="https://courtofficefurniture.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+    <script src="https://courtofficefurniture.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+    <script id="wp-i18n-js-after">
+        wp.i18n.setLocaleData({
+            'text direction\u0004ltr': ['ltr']
+        });
+    </script>
+    <script src="https://courtofficefurniture.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.6" id="swv-js"></script>
+    <script id="contact-form-7-js-before">
+        var wpcf7 = {
+            "api": {
+                "root": "https:\/\/courtofficefurniture.com\/wp-json\/",
+                "namespace": "contact-form-7\/v1"
+            }
+        };
+    </script>
+    <script src="https://courtofficefurniture.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.6" id="contact-form-7-js"></script>
+    <script src="https://courtofficefurniture.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+    <script src="https://courtofficefurniture.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3" id="jquery-ui-datepicker-js"></script>
+    <script id="jquery-ui-datepicker-js-after">
+        jQuery(function(jQuery) {
+            jQuery.datepicker.setDefaults({
+                "closeText": "Close",
+                "currentText": "Today",
+                "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                "nextText": "Next",
+                "prevText": "Previous",
+                "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+                "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
+                "dateFormat": "MM d, yy",
+                "firstDay": 1,
+                "isRTL": false
+            });
+        });
+    </script>
+    <script src="https://courtofficefurniture.com/wp-content/themes/courtst/js/navigation.js?ver=1.0.0" id="court_st-navigation-js"></script>
+
+</body>
+
+</html>
